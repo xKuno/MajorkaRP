@@ -1,0 +1,35 @@
+Config                            = {}
+Config.Locale = 'pl' -- your language, It would be nice if you send me your translation on fivem forum
+Config.TimeToSell = 7 -- how many seconds player have to wait/stand near ped
+Config.CallCops = true -- if true and if ped reject your offer then there is 40% chance that ped will call cops
+Config.CopsRequiredToSell = 2 -- required cops on server to sell drugs
+Config.JakMnieKiedysPopierdoli = false -- required cops on server to sell drugs
+Config.PlayersRequiredToSell = 1 -- required cops on server to sell drugs
+Config.CallCopsPercent = 1 -- (min1) if 1 cops will be called every time=100%, 2=50%, 3=33%, 4=25%, 5=20%
+Config.PedRejectPercent = 2 -- (min1) if 1 ped reject offer=100%, 2=50%, 3=33%, 4=25%, 5=20%
+Config.PlayAnimation = true -- just play animation when sold
+Config.SellPooch = true -- if true, players can sell pooch like weed_pooch, meth_pooch
+Config.SellSingle = false -- if true, players can sell single item like weed, meth
+Config.SellWeed = true	-- if true, players can sell weed
+Config.SellAcid = true	-- if true, players can sell weed
+Config.SellMeth = true	-- if true, players can sell meth
+Config.SellAmfa = true	-- if true, players can sell meth
+Config.SellAloes = true	-- if true, players can sell meth
+Config.SellCoke30 = true	-- if true, players can sell coke
+Config.SellCoke70 = true	-- if true, players can sell coke
+Config.SellCoke100 = true
+Config.SellBimber = true
+Config.SellOpiu = true	-- if true, players can sell opium
+Config.SellChuj = true
+Config.SellSterydy = true
+Config.SellExtazy = true 
+Config.SellNitro = true
+Config.WeedPrice = 30    -- sell price for single, not pooch (black money)
+Config.MethPrice = 40    -- sell price for single, not pooch (black money)
+Config.Coke30Price = 80    -- sell price for single, not pooch (black money)
+Config.Coke70Price = 120    -- sell price for single, not pooch (black money)
+Config.Coke100Price = 860    -- sell price for single, not pooch (black money)
+Config.OpiuPrice = 60     -- sell price for single, not pooch (black money)
+Config.ChujPrice = 80
+Config.SterydyPrice = 1400
+Config.BimberPrice = 1400

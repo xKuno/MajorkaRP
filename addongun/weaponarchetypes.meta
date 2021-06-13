@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+    <Item>
+			<modelName>W_PI_LUGER</modelName>
+			<txdName>W_PI_LUGER</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+    <Item>
+			<modelName>W_PI_DEAGLE</modelName>
+			<txdName>W_PI_DEAGLE</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+    <Item>
+      <modelName>W_PI_GLOCK</modelName>
+      <txdName>W_PI_GLOCK</txdName>
+      <ptfxAssetName>null</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+    <Item>
+      <modelName>W_PI_NAMBU</modelName>
+      <txdName>W_PI_NAMBU</txdName>
+      <ptfxAssetName>null</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+    <Item>
+      <modelName>W_SB_UMP45</modelName>
+      <txdName>W_SB_UMP45</txdName>
+      <ptfxAssetName>null</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+        <Item>
+      <modelName>W_PI_PISTOL2</modelName>
+      <txdName>W_PI_PISTOL2</txdName>
+      <ptfxAssetName>null</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+  </InitDatas>
+</CWeaponModelInfo__InitDataList>

@@ -1,0 +1,231 @@
+{
+    "departmensVariations": {
+        "police": {
+            "logo": "EMS_logo_GTA_V.png",
+            "displayName": "Emergency Medical Services"
+        },
+        "dpp": {
+            "logo": "EMS_logo_GTA_V.png",
+            "displayName": "xDDDDDDDDDD"
+        }
+	"sheriff": {
+	    "logo: "EMS_logo_GTA_V.png",
+	    "displayName": "",
+		}
+    },
+    "convictions": [
+        {
+            "categoryName": "WYKROCZENIA DROGOWE",
+            "items": [
+                {
+                    "name": "Jazda pod drogach nieprzeznaczonych do tego",
+                    "description": "Jazda Samochodem np po chodniku dla pieszych",
+                    "length": 0,
+                    "fee": 1500
+                },
+                {
+                    "name": "Jazda pod prad",
+                    "description": "Jazda samochodem po przeciwleglym pasie drogowym",
+                    "length": 0,
+                    "fee": 1750
+                },
+                {
+                    "name": "Spowodowanie wypadku",
+                    "description": "Wypadek",
+                    "length": 0,
+                    "fee": 5000
+                },
+                {
+                    "name": "Tworzenie zagrozenia w ruchu drogowym",
+                    "description": "Specjalne powodowanie zagrozenia innym",
+                    "length": 0,
+                    "fee": 2500
+                },
+                {
+                    "name": "Przewoz niedozwolonej ilosci osob",
+                    "description": "Przewoøenie duzej ilosci osob",
+                    "length": 0,
+                    "fee": 1800
+                },
+                {
+                    "name": "Brawurowa jazda",
+                    "description": "",
+                    "length": 0,
+                    "fee": 3500
+                },
+                {
+                    "name": "Przekroczenie predkosci o 20-50km/h",
+                    "description": "",
+                    "length": 0,
+                    "fee": 1500
+                },
+                {
+                    "name": "Nieprawidlowe parkowanie",
+                    "description": "",
+                    "length": 0,
+                    "fee": 1000
+                },
+                {
+                    "name": "Jazda pod wplywem alkoholu",
+                    "description": "",
+                    "length": 0,
+                    "fee": 3000
+                },
+                {
+                    "name": "Zly stan techniczny pojazdu",
+                    "description": "",
+                    "length": 0,
+                    "fee": 2500
+                },
+                {
+                    "name": "Zawracanie w miejscu do tego niedozwolonym",
+                    "description": "",
+                    "length": 0,
+                    "fee": 500
+                },
+                {
+                    "name": "Kradziez pojazdu obywatela lub fp",
+                    "description": "",
+                    "length": 5,
+                    "fee": 5000
+                },
+                {
+                    "name": "Pomoc w ucieczce",
+                    "description": "",
+                    "length": 5,
+                    "fee": 7500
+                },
+                {
+                    "name": "Ucieczka przed policja",
+                    "description": "",
+                    "length": 10,
+                    "fee": 10000
+                },
+                {
+                    "name": "Nie stosowanie sie do sygnalizacji swietlnej",
+                    "description": "",
+                    "length": 0,
+                    "fee": 3500
+                },
+                {
+                    "name": "Uceiczka z miejsca wypadku/zbrodni",
+                    "description": "",
+                    "length": 0,
+                    "fee": 3500
+                },
+                {
+                    "name": "Blokowanie ruchu drogowego",
+                    "description": "Specjalnie lub umyúlne przeszkadzanie",
+                    "length": 0,
+                    "fee": 3500
+                }
+
+            ]
+        },
+        {
+            "categoryName": "Kolejna kategoria wyrok√≥w",
+            "items": [
+                {
+                    "name": "Nazwa wyroku 2",
+                    "description": "Opis wyroku",
+                    "length": 20,
+                    "fee": 500
+                },
+                {
+                    "name": "Nazwa wyroku 3",
+                    "description": "Opis wyroku",
+                    "length": 20,
+                    "fee": 500
+                },
+                {
+                    "name": "Nazwa wyroku 4",
+                    "description": "Opis wyroku",
+                    "length": 20,
+                    "fee": 500
+                },
+                {
+                    "name": "Nazwa wyroku 5",
+                    "description": "Opis wyroku",
+                    "length": 20,
+                    "fee": 500
+                },
+                {
+                    "name": "Nazwa wyroku 6",
+                    "description": "Opis wyroku",
+                    "length": 20,
+                    "fee": 500
+                }
+            ]
+        },
+        {
+            "categoryName": "Kolejna kategoria wyrok√≥w",
+            "items": [
+                {
+                    "name": "Nazwa wyroku 2",
+                    "description": "Opis wyroku",
+                    "length": 20,
+                    "fee": 500
+                },
+                {
+                    "name": "Nazwa wyroku 3",
+                    "description": "Opis wyroku",
+                    "length": 20,
+                    "fee": 500
+                },
+                {
+                    "name": "Nazwa wyroku 4",
+                    "description": "Opis wyroku",
+                    "length": 20,
+                    "fee": 500
+                },
+                {
+                    "name": "Nazwa wyroku 5",
+                    "description": "Opis wyroku",
+                    "length": 20,
+                    "fee": 500
+                },
+                {
+                    "name": "Nazwa wyroku 6",
+                    "description": "Opis wyroku",
+                    "length": 20,
+                    "fee": 500
+                }
+            ]
+        },
+        {
+            "categoryName": "Kolejna kategoria wyrok√≥w",
+            "items": [
+                {
+                    "name": "Nazwa wyroku 2",
+                    "description": "Opis wyroku",
+                    "length": 20,
+                    "fee": 500
+                },
+                {
+                    "name": "Nazwa wyroku 3",
+                    "description": "Opis wyroku",
+                    "length": 20,
+                    "fee": 500
+                },
+                {
+                    "name": "Nazwa wyroku 4",
+                    "description": "Opis wyroku",
+                    "length": 20,
+                    "fee": 500
+                },
+                {
+                    "name": "Nazwa wyroku 5",
+                    "description": "Opis wyroku",
+                    "length": 20,
+                    "fee": 500
+                },
+                {
+                    "name": "Nazwa wyroku 6",
+                    "description": "Opis wyroku",
+                    "length": 20,
+                    "fee": 500
+                }
+            ]
+        }
+    ]
+}

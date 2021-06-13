@@ -1,0 +1,136 @@
+body { 
+background-color: transparent !important;
+overflow: hidden;
+}
+
+.container-fluid {
+	display:none;
+}
+
+@font-face {
+    font-family: sign;
+    src: url(signpainter.ttf);
+}
+@font-face {
+    font-family: gothicb;
+    src: url(gothicb.ttf);
+}
+h1.tutorialheader {
+	font-family:sign;
+	font-size:7.5vw;
+	color:#FFF;
+	text-shadow: .1vw .1vw  #000;
+	text-align: center;
+	margin-top:1vw;
+}
+
+div.tutdesc { 
+    height: 1000px;
+    right: 450px;
+ }
+
+#przyciskwyjscia {
+background: #1d1d1d00;
+font-size: 8px;
+ color: white;
+ width: 25px;
+	position: absolute;
+  max-width: 100%;
+ max-height: 100%;
+ 	margin: auto;
+bottom: 87.58%;
+right: 13.5%;
+border-radius: 50%;
+border: 0px;
+transform: translate(-88.68%, -50%);
+}
+
+h6 {
+	font-size: 12px;
+	 color: white;
+		position: absolute;
+	  max-width: 100%;
+	 max-height: 100%;
+		 margin: auto;
+		top: 88.68%;
+	left: 50%;
+	border: 0px;
+	transform: translate(-88.68%, -50%);
+	font-style:oblique;
+}
+
+#przyciskresetu {
+	background: #1d1d1d00;
+	font-size: 10px;
+	 color: rgba(255, 255, 255, 0.76);
+	 width: 20px;
+		position: absolute;
+	  max-width: 100%;
+	 max-height: 100%;
+		 margin: auto;
+		bottom: 87.38%;
+	border-radius: 50%;
+	left: 21.5%;
+	border: 0px;
+	transform: translate(-88.68%, -50%);
+}
+
+#przyciskforward {
+	background: #1d1d1d00;
+	font-size: 8px;
+	 color: white;
+	 width: 20px;
+		position: absolute;
+	  max-width: 100%;
+	 max-height: 100%;
+		 margin: auto;
+		 bottom: 87.58%;
+	left: 23%;
+	border-radius: 50%;
+	border: 0px;
+	transform: translate(-88.68%, -50%);
+}
+
+
+#przyciskback {
+	background: #1d1d1d00;
+	font-size: 8px;
+	 color: white;
+	 width: 20px;
+		position: absolute;
+	  max-width: 100%;
+	 max-height: 100%;
+		 margin: auto;
+		 bottom: 87.58%;
+	left: 20%;
+	border-radius: 50%;
+	border: 0px;
+	transform: translate(-88.68%, -50%);
+}
+
+
+#content {
+position: absolute;
+overflow: hidden; /* Hide scrollbars */
+}
+
+#tablet23 {
+overflow: hidden;
+	position: absolute;
+top: 50%;
+left: 50%;
+width: 80%;
+height: 80%;
+ max-width: 100%;
+ max-height: 100%;
+	margin: auto;
+	border: 20px #0f0f0f solid;
+	border-top-width: 25px;
+	border-bottom-width: 25px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+   resize: both;
+  overflow: auto;
+  transform: translate(-50%, -50%);
+}

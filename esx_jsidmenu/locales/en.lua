@@ -1,0 +1,52 @@
+Locales['en'] = {
+	-- Citizen Interactions
+	["citizen_interactions"] 	= "Menu interakcji",
+	["vehicle_menu"]			= "Vehicle Menu",
+	["id_card"]					= "Dowod",
+	["id_card2"]				= "Karta Licencyjna",
+	["id_card3"]				= "Licencja na bron",
+	["pee"]						= "Pee",
+	["poop"]					= "Poop",
+	["blindfold"]				= "On/Off blindfold",
+	["nobody_near"]				= "Brak graczy w poblizu",
+	-- ID Meny
+	["check_id"]				= "Sprawdz swoj dowod",
+	["show_id"]					= "Pokaz swoj dowod",
+	["check_id2"]				= "Sprawdz swoja karte licencyjna",
+	["show_id2"]				= "Pokaz swoja karte licencyjna",
+	["check_id3"]				= "Sprawdz swoja licencje na bron",
+	["show_id3"]				= "Pokaz swoja licencje na bron",
+	["id_menu"]					= "State ID",
+	["dl_menu"]					= "Karta Licencyjna",
+	["gl_menu"]					= "Licencja na bron",
+	-- Fordonsmeny
+	["engine"]					= "Silnik",
+	["doors"]					= "Drzwi",
+	["window"]					= "Okno",
+	["cruise_control"]			= "Cruise Control",
+	["shuff"]					= "Change Seat",
+	["turned_off_engine"]		= "You turned off the engine",
+	["turned_on_engine"]		= "You turned on the engine",
+	-- Dörrar
+	["hood"]					= "Maska",
+	["trunk"]					= "Bagaznik",
+	["front_left_door"]			= "Lewe przednie drzwi",
+	["front_right_door"]		= "Prawe przednie drzwi",
+	["back_left_door"]			= "Lewe tylne drzwi",
+	["back_right_door"]			= "Prawe tylne drzwi",
+	["closed_hood"]				= "Zamknales maske!",
+	["opened_hood"]				= "Otworzyles maske!",
+	["closed_door"]				= "Otworzyles drzwi",
+	["opened_door"]				= "Zamknales drzwi!",
+	-- Fönster meny
+	["window_menu"]				= "Menu Okien",
+	["front_left_window"]		= "Lewe przednie okna",
+	["front_right_window"]		= "Prawe przednie okna",
+	["back_left_window"]		= "Lewe tylne okna",
+	["back_right_window"]		= "Prawe tylne okna",
+	["opened_window"]			= "Zamknales okna",
+	["closed_wondow"]			= "Otworzyles okna",
+	-- Fartbegränsare
+	["disabled"]				= "Disabled",
+	["disabled_cruise_control"]	= "You turned off the cruise control"
+}

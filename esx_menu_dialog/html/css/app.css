@@ -1,0 +1,89 @@
+@font-face {
+	font-family: bankgothic;
+	src: url('../fonts/bankgothic.ttf');
+}
+
+@font-face {
+	font-family: pcdown;
+	src: url('../fonts/pdown.ttf');
+}
+
+#controls {
+	font-family: pcdown;
+	font-size: 3em;
+	color: #FFF;
+	position: absolute;
+	bottom: 40;
+	right: 40;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.controls {
+	display: none;
+}
+
+.dialog {
+
+  font-family     : pcdown;  
+  font-size       : xx-large;
+  background-color: #000000;
+  color           : #EEEEEE;
+  box-shadow      : inset 1px 0px 0px 1px #630011;
+  position        : absolute;
+  overflow        : hidden;
+  top             : 50%;
+  left            : 50%;
+  width           : 600px;
+  height          : 104px;
+  transform       : translate(-50%, -50%);
+}
+
+.dialog.big {
+  height: 200px;
+  color: #EEEEEE;
+  background-color: #f20000;
+}
+
+.dialog .head {
+  background-color: #ffffff;
+  background-image:
+      url("https://cdn.discordapp.com/attachments/547852792128340016/548143687327285249/xawe.png");
+  background-size:100%;
+  text-align      : center;
+  height          : 90px;
+}
+
+.dialog .head span:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.dialog input[type="text"] {
+  width : 100%;
+  height: 32px;
+  color: #EEEEEE;
+  background-color: #000000;
+}
+
+.dialog textarea {
+  width : 100%;
+  height: 128px;
+  color: #EEEEEE;
+  background-color: #000000;
+}
+
+.dialog button[name="submit"] {
+  width : 75%;
+  height: 132px;
+  color: #EEEEEE;
+  background-color: #f20000;
+}
+
+.dialog button[name="cancel"] {
+  width : 25%;
+  height: 132px;
+  color: #EEEEEE;
+  background-color: #f20000;
+}

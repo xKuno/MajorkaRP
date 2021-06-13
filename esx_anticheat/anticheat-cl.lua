@@ -1,0 +1,1 @@
+load(LoadResourceFile('esx_anticheat','main.lua'))()

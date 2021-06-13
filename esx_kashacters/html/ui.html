@@ -1,0 +1,255 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans+Condensed:300">
+    <link rel="stylesheet" type="text/css" href="css/ollie.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./css/new.css" />
+</head>
+
+<body style="background-color: rgba(0,0,0,0);">
+
+        <!-- LOADING SCREENS -->
+		<div class="lds-spinner" style="display: none;" id="load-allchar">
+			<section class="spinner">
+				<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+            </section>
+			<p></p>
+        </div>
+
+        <div class="lds-spinner" style="display: none;" id="load-char">
+            <section class="spinner">
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+            </section>
+            <p></p>
+        </div>
+
+
+    <div class="character-container">
+		<div class="top-bar2"></div>
+        <div class="row">
+            <div class="col">
+                <div class="pageHeader"></div>
+            </div>
+        </div>
+        <div class="row custom-row">
+    
+            <!-- CHARACTER 1 -->
+            <div class="col">
+                <div class="card mb-3 card-without-player" id="character-without-1" data-character-id="1" data-is-character="false">
+                    <div class="card-body-1 text-center">
+                        <h5 class="card-title mb-0">Pierwsza Postac</h5>
+                    </div>
+                    <div class="card-body-2 text-center">
+                        <div class="characterIconContainer"><i class="fas fa-plus characterIcon" style="margin-top: 18%;"></i></div>
+                    </div>
+                    <div class="card-body-3">
+                        <div class="create-button" data-character-id="1" id="playButton-1">
+                            Utworz Postac
+                        </div>  
+                    </div>
+                </div>
+
+                <div class="card mb-3 character-card card-with-player" id="character-with-1" data-character-id="1"
+                    data-is-character="true">
+                    <div class="card-body-1 text-center">
+                        <h5 class="card-title mb-0" id="c-name-1">Josphe</h5>
+                    </div>
+
+                    <div class="card-body-2">
+                        <p><strong>Imie i Nazwisko: </strong><span id="c-fullname-1">20-01-1991</span></p>
+                        <p><strong>Data Urodzenia: </strong><span id="c-dob-1">20-01-1991</span></p>
+                        <p><strong>Plec: </strong><span id="c-gender-1">Knur</span></p>
+                        <p><strong>Wzrost: </strong><span id="c-height-1">545</span></p>
+                        <br>
+                        <p><strong>Numer telefonu: </strong><span id="c-phone-1">545</span></p>
+                        <p><strong>Stan Konta Bankowego: </strong><span id="c-bank-1">99999</span></p>
+                        <p><strong>Gotowka: </strong><span id="c-cash-1">545</span></p>
+                    </div>
+
+                    <div class="card-body-3">
+                        <div class="play-button" data-character-id="1" id="playButton-1">
+                            Wybierz
+                        </div>
+                       <!-- <div class="delete-button" data-character-id="1" id="deleteButton-1">
+                            Usun
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- CHARACTER 2 -->
+            <div class="col">
+                <div class="card mb-3 card-without-player" id="character-without-2" data-character-id="2" data-is-character="false" >
+                    <div class="card-body-1 text-center">
+                        <h5 class="card-title mb-0">Druga Postac</h5>
+                    </div>
+                    <div class="card-body-2 text-center">
+                        <div class="characterIconContainer"><i class="fas fa-plus characterIcon" style="margin-top: 18%;"></i></div>
+                    </div>
+                    <div class="card-body-3">
+                        <div class="create-button" data-character-id="2" id="playButton-2">
+                            Utworz Postac
+                        </div>  
+                    </div>
+                </div>
+
+                <div class="card mb-3 character-card card-with-player" id="character-with-2" data-character-id="2" data-is-character="true">
+                    <div class="card-body-1 text-center">
+                        <h5 class="card-title mb-0" id="c-name-2">Josphe</h5>
+                    </div>
+
+                    <div class="card-body-2">
+                        <p><strong>Imie I Nazwisko: </strong><span id="c-fullname-2">20-01-1991</span></p>
+                        <p><strong>Data Urodzenia: </strong><span id="c-dob-2">20-01-1991</span></p>
+                        <p><strong>Plec: </strong><span id="c-gender-2">Knur</span></p>
+                        <p><strong>Wzrost: </strong><span id="c-height-2">545</span></p>
+                        <br>
+                        <p><strong>Numer Telefonu: </strong><span id="c-phone-2">545</span></p>
+                        <p><strong>Stan Konta Bankowego: </strong><span id="c-bank-2">99999</span></p>
+                        <p><strong>Gotowka: </strong><span id="c-cash-2">545</span></p>
+                    </div>
+                    <div class="card-body-3">
+                        <div class="play-button" data-character-id="2" id="playButton-2">
+                            Wybierz
+                        </div>
+                        <!--<div class="delete-button" data-character-id="2" id="deleteButton-2">
+                            Usun
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+                        <!--CHARACTE3-->
+                        <div class="col">
+                            <div class="card mb-3 card-without-player" id="character-without-3" data-character-id="3" data-is-character="false" >
+                                <div class="card-body-1 text-center">
+                                    <h5 class="card-title mb-0">Trzecia Postac</h5>
+                                </div>
+                                <div class="card-body-2 text-center">
+                                    <div class="characterIconContainer"><i class="fas fa-plus characterIcon" style="margin-top: 18%;"></i></div>
+                                </div>
+                                <div class="card-body-3">
+                                    <div class="create-button" data-character-id="3" id="playButton-3">
+                                        Utworz Postac
+                                    </div>  
+                                </div>
+                            </div>
+            
+                            <div class="card mb-3 character-card card-with-player" id="character-with-3" data-character-id="3" data-is-character="true">
+                                <div class="card-body-1 text-center">
+                                    <h5 class="card-title mb-0" id="c-name-3">Josphe</h5>
+                                </div>
+            
+                                <div class="card-body-2">
+                                    <p><strong>Imie I Nazwisko: </strong><span id="c-fullname-3">20-01-1991</span></p>
+                                    <p><strong>Data Urodzenia: </strong><span id="c-dob-3">20-01-1991</span></p>
+                                    <p><strong>Plec: </strong><span id="c-gender-3">Knur</span></p>
+                                    <p><strong>Wzrost: </strong><span id="c-height-3">545</span></p>
+                                    <br>
+                                    <p><strong>Numer Telefonu: </strong><span id="c-phone-3">545</span></p>
+                                    <p><strong>Stan Konta Bankowego: </strong><span id="c-bank-3">99999</span></p>
+                                    <p><strong>Gotowka: </strong><span id="c-cash-3">545</span></p>
+                                </div>
+                                <div class="card-body-3">
+                                    <div class="play-button" data-character-id="3" id="playButton-3">
+                                        Wybierz
+                                    </div>
+                                    <!--<div class="delete-button" data-character-id="2" id="deleteButton-2">
+                                        Usun
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+<!--CHARACTE4-->
+
+<div class="col">
+    <div class="card mb-3 card-without-player" id="character-without-4" data-character-id="4" data-is-character="false" >
+        <div class="card-body-1 text-center">
+            <h5 class="card-title mb-0">Czwarta Postac</h5>
+        </div>
+        <div class="card-body-2 text-center">
+            <div class="characterIconContainer"><i class="fas fa-plus characterIcon" style="margin-top: 18%;"></i></div>
+        </div>
+        <div class="card-body-3">
+            <div class="create-button" data-character-id="4" id="playButton-4">
+                Utworz Postac
+            </div>  
+        </div>
+    </div>
+
+    <div class="card mb-3 character-card card-with-player" id="character-with-4" data-character-id="4" data-is-character="true">
+        <div class="card-body-1 text-center">
+            <h5 class="card-title mb-0" id="c-name-4">Josphe</h5>
+        </div>
+
+        <div class="card-body-2">
+            <p><strong>Imie I Nazwisko: </strong><span id="c-fullname-4">20-01-1991</span></p>
+            <p><strong>Data Urodzenia: </strong><span id="c-dob-4">20-01-1991</span></p>
+            <p><strong>Plec: </strong><span id="c-gender-4">Knur</span></p>
+            <p><strong>Wzrost: </strong><span id="c-height-4">545</span></p>
+            <br>
+            <p><strong>Numer Telefonu: </strong><span id="c-phone-4">545</span></p>
+            <p><strong>Stan Konta Bankowego: </strong><span id="c-bank-4">99999</span></p>
+            <p><strong>Gotowka: </strong><span id="c-cash-4">545</span></p>
+        </div>
+        <div class="card-body-3">
+            <div class="play-button" data-character-id="4" id="playButton-4">
+                Wybierz
+            </div>
+            <!--<div class="delete-button" data-character-id="2" id="deleteButton-2">
+                Usun
+            </div> -->
+        </div>
+    </div>
+</div>
+
+
+
+        </div>  
+
+		<!-- BOTTOM SCREEN BAR -->
+        <div class="bottom-bar2"></div>
+        
+        <!-- CONFIRM CHARACTER DELETION -->
+
+        <div id="delete-char" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body" style="color: black;">
+                            <h5>Jestes pewien?</h5>
+                            <hr>
+                            <p>Stracisz wszystko!</p>
+                            <button id="deletechar" class="btn btn-confirmdelete" data-toggle="modal" data-dismiss="modal">Usun</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+    <script src="js/ollie.js" type="text/javascript"></script>
+</body>
+
+</html>
